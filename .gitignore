@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+.next/
+__pycache__/
+*.pyc
+*.egg-info/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+
+# Build artifacts
+dist/
+*.db
+
+# Python
+*.egg-info/

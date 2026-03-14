@@ -1,0 +1,17 @@
+{
+  "type": "webapp",
+  "services": {
+    "frontend": {
+      "port": 3000,
+      "context": "frontend"
+    },
+    "api": {
+      "port": 8000,
+      "context": "backend"
+    }
+  },
+  "databases": {
+    "postgres": true,
+    "redis": true
+  }
+}
