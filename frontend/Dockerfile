@@ -3,6 +3,7 @@ WORKDIR /app
 COPY package.json bun.lock* ./
 RUN bun install
 COPY . .
+RUN mkdir -p public
 RUN bun run build
 
 FROM node:20-alpine AS runtime
